@@ -11,7 +11,7 @@ const Landing = () => {
                         <p class="py-6 max-w-lg" data-aos="fade-up" data-aos-duration="800" data-aos-delay="800">Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem quasi. In deleniti eaque aut repudiandae et a id nisi.</p>
                         <button class="btn btn-primary" data-aos="zoom-in" data-aos-delay="1300">Get Started</button>
                     </div>
-                    <div className='h-[60vh] shrink-0' data-aos="zoom-in-up" data-aos-duration="1000" data-aos-delay="200">
+                    <div className='h-[60vh] shrink-0' data-aos="zoom-in-up" data-aos-duration="1300" data-aos-delay="200">
                         <img src={bucketGirl} class="h-full" alt='' />
                     </div>
                 </div>
