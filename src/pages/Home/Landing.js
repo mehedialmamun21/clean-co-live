@@ -6,11 +6,12 @@ const Landing = () => {
             <div class="hero h-screen lg:h-[60vh] bg-accent relative z-0 mt-16">
                 <div class="hero-content flex-col lg:flex-row">
                     <div className='lg:mr-10'>
-                        <h1 class="text-4xl font-bold">Professional Cleaning Service</h1>
-                        <p class="py-6 max-w-lg">Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem quasi. In deleniti eaque aut repudiandae et a id nisi.</p>
-                        <button class="btn btn-primary">Get Started</button>
+                        <p className='text-xl' data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">Best Quality</p>
+                        <h1 class="text-4xl font-bold" data-aos="fade-up" data-aos-duration="900" data-aos-delay="500">Professional Cleaning Service</h1>
+                        <p class="py-6 max-w-lg" data-aos="fade-up" data-aos-duration="800" data-aos-delay="800">Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem quasi. In deleniti eaque aut repudiandae et a id nisi.</p>
+                        <button class="btn btn-primary" data-aos="zoom-in" data-aos-delay="1300">Get Started</button>
                     </div>
-                    <div className='h-[60vh] shrink-0'>
+                    <div className='h-[60vh] shrink-0' data-aos="zoom-in-up" data-aos-duration="1000" data-aos-delay="200">
                         <img src={bucketGirl} class="h-full" alt='' />
                     </div>
                 </div>
