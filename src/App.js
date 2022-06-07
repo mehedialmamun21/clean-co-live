@@ -10,6 +10,8 @@ import PrivateRoute from "./authentication/PrivateRoute";
 import { privateRoutes } from '../src/routes/privateRoutes';
 import AdminRoute from "./authentication/AdminRoute";
 import Dashboard from "./pages/Dashboard/Dashboard";
+import AddService from "./pages/Dashboard/AddService";
+import AddAdmin from "./pages/Dashboard/AddAdmin";
 function App() {
   useEffect(() => {
     AOS.init();
@@ -29,7 +31,10 @@ function App() {
         </Route>
 
         <Route element={<AdminRoute />}>
-          <Route path="/dashboard" element={<Dashboard />} />
+          <Route path="/dashboard" element={<Dashboard />}>
+            <Route path='add-service' element={<AddService />} />
+            <Route path='add-admin' element={<AddAdmin />} />
+          </Route>
         </Route>
 
       </Routes>
