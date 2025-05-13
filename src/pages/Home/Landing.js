@@ -1,5 +1,5 @@
 import React from 'react';
-import bucketGirl from '../../assets/images/bucketgirl.png'
+import homeImg from '../../assets/images/about.svg'
 const Landing = () => {
     return (
         <>
@@ -12,12 +12,12 @@ const Landing = () => {
                         <button class="btn btn-primary" data-aos="zoom-in" data-aos-delay="1300">Get Started</button>
                     </div>
                     <div className='h-[60vh] shrink-0' data-aos="zoom-in-up" data-aos-duration="1300" data-aos-delay="100">
-                        <img src={bucketGirl} class="h-full" alt='' />
+                        <img src={homeImg} class="h-full" alt='' />
                     </div>
                 </div>
             </div>
 
-            <div className='shadow-lg p-10 w-5/6 rounded-2xl mx-auto relative z-20 bg-base-200 mt-[-50px]'>
+            {/* <div className='shadow-lg p-10 w-5/6 rounded-2xl mx-auto relative z-20 bg-base-200 mt-[-50px]'>
                 <h1 className='text-2xl mb-5 text-primary'>Get Free Estimate</h1>
                 <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4'>
                     <input type="text" placeholder="Type here" class="input input-bordered w-full" />
@@ -30,7 +30,7 @@ const Landing = () => {
                     <input type="text" placeholder="Type here" class="input input-bordered w-full" />
                 </div>
                 <button className='btn btn-primary mt-5'>Request a quote</button>
-            </div>
+            </div> */}
 
         </>
     );
